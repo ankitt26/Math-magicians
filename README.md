@@ -2,7 +2,7 @@
 
 # 📗 Table of Contents
 
-- [� Table of Contents](#-table-of-contents)
+- [📗 Table of Contents](#-table-of-contents)
 - [📖 \[Math Magicians\] ](#-math-magicians-)
   - [🛠️ Built With ](#️-built-with-)
     - [Tech Stack ](#tech-stack-)
@@ -85,8 +85,8 @@ Clone this repository to your desired folder:
 Example commands:
 
 ```sh
-  cd todo-list
-  git clone https://github.com/MarcoDiaz2000/math-magicians
+  cd my project
+  git clone git@github.com:ankitt26/Math-magicians.git
 
 ```
 
