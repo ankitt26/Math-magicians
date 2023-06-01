@@ -14,20 +14,21 @@ body {
   min-width: 373px;
   height: 400px;
   margin: 100px auto;
-  border-radius: 900px;
-  background-color: rgb(207, 132, 132);
 }
 
-.result-box {
-  width: 95%;
+#result-box {
+  width: 97%;
   height: 66.66px;
+  font-size: 20px;
   display: flex;
-  flex-direction: row;
-  justify-content: right;
-  padding-right: 30px;
-  border-top-left-radius: 8px;
-  border-top-right-radius: 8px;
-  background-color: rgb(90, 87, 83);
+  justify-content: flex-end;
+  align-items: center;
+  padding-right: 20px;
+  border: none;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  color: #fff;
+  background-color: #5085a8;
 }
 
 .result {
