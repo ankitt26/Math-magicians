@@ -20,12 +20,11 @@ body {
   width: 97%;
   height: 66.66px;
   font-size: 20px;
-  text-align: right;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
   padding-right: 20px;
   border: none;
-  outline: none;
-  cursor: none;
-  caret-color: transparent;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
   color: #fff;
