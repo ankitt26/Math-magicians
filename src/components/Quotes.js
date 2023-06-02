@@ -25,15 +25,31 @@ const Quotes = () => {
           .then((json) => setdata(json));
       } catch (error) {
         seterror(true);
-        console.log(error.message);
       }
       setloading(false);
     };
     quotesData();
   }, []);
 
+  if (err === true) {
+    return <p className="error-m">⚠️ An error occurs during the API request</p>;
+  }
+
+  if (loading === true) {
+    return <p className="loading-m"> 🔃 Loading....... </p>;
+  }
+
   return (
-    <div>quotes</div>
+    <p className="quotes">
+      🎉
+      {data[0]?.quote}
+      <span className="author">
+        {' '}
+        –
+        {data[0]?.author}
+        .
+      </span>
+    </p>
   );
 };
 export default Quotes;
