@@ -47,6 +47,7 @@ const Quotes = () => {
         {' '}
         –
         {data[0]?.author}
+        {' '}
         .
       </span>
     </p>
