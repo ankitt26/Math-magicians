@@ -9,6 +9,8 @@ const Calculator = () => {
   };
 
   return (
+    <>
+    <h2>Welcome to Maths Magicians</h2>
     <div className="calculator">
       <div id="result-box">
         {(obj.total && obj.next) || obj.next ? obj.next : obj.total || 0}
@@ -42,6 +44,7 @@ const Calculator = () => {
         </button>
       </div>
     </div>
+  </>  
   );
 };
 
