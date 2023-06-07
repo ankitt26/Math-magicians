@@ -1,4 +1,23 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@600&family=Ysabeau:wght@300&display=swap");
+.CPage {
+  width: 90%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 20px auto;
+}
+
+h2 {
+  color: #eb9a9a;
+  font-family: "Nunito", sans-serif;
+}
+
+p {
+  max-width: 80%;
+}
+
 .calculator {
+  font-family: "Nunito", sans-serif;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
@@ -6,7 +25,8 @@
   max-width: 500px;
   min-width: 373px;
   height: 400px;
-  margin: 100px auto;
+  margin: 0 auto;
+  margin-right: 100px;
 }
 
 #resultBox {
@@ -51,7 +71,7 @@
 }
 
 .zeroButton {
-  width: 250px;
+  width: 187px;
   height: 100%;
   display: flex;
   justify-content: center;
