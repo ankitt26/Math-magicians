@@ -13,7 +13,7 @@ const Calculator = () => {
     <div className={styles.CPage}>
       <div>
         <h2 className={styles.h2}>Welcome to Maths Magicians</h2>
-        <p className={styles.h2}>
+        <p className={styles.p}>
           Math Magician is a web application or software program designed to
           help users improve their math skills and enhance their mental
           calculation abilities. It provides a platform for practicing various

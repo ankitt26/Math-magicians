@@ -1,4 +1,5 @@
 import { useEffect, useState } from 'react';
+import styles from '../Styles/Quotes.module.css';
 
 const Quotes = () => {
   const [data, setdata] = useState([]);
@@ -32,18 +33,18 @@ const Quotes = () => {
   }, []);
 
   if (err === true) {
-    return <p className="error-m">⚠️ An error occurs during the API request</p>;
+    return <p className={styles.quote}>⚠️ An error occurs during the API request</p>;
   }
 
   if (loading === true) {
-    return <p className="loading-m"> 🔃 Loading....... </p>;
+    return <p className={styles.quote}> 🔃 Loading....... </p>;
   }
 
   return (
-    <p className="quotes">
+    <p className={styles.quote}>
       🎉
       {data[0]?.quote}
-      <span className="author">
+      <span className={styles.author}>
         {' '}
         –
         {data[0]?.author}

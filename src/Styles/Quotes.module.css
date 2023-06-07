@@ -1,0 +1,13 @@
+@import url("https://fonts.googleapis.com/css2?family=Karla:wght@600&family=Nunito:wght@600&family=Ysabeau:wght@300&display=swap");
+.quote {
+  font-family: "Karla", sans-serif;
+  margin: 100px auto;
+  max-width: 80%;
+  text-align: center;
+  font-size: 25px;
+  color: rgb(59, 59, 56);
+}
+
+.author {
+  color: rgb(188, 113, 113);
+}

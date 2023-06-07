@@ -7,12 +7,12 @@
   margin: 20px auto;
 }
 
-h2 {
+.h2 {
   color: #eb9a9a;
   font-family: "Nunito", sans-serif;
 }
 
-p {
+.p {
   font-size: 16px;
   max-width: 80%;
   font-family: "Ysabeau", sans-serif;
