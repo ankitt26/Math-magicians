@@ -1,9 +1,10 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import Inputitem from './inputItem';
+import styles from '../Styles/Calculator.module.css';
 
 const Inputrow = ({
-  item1, item2, item3, item4, onclick, styles,
+  item1, item2, item3, item4, onclick,
 }) => (
   <div className={styles.inputRow}>
     <Inputitem item={item1} onclick={onclick} classN={styles.inputItem} />
@@ -19,7 +20,6 @@ Inputrow.propTypes = {
   item3: PropTypes.string.isRequired,
   item4: PropTypes.string.isRequired,
   onclick: PropTypes.func,
-  styles: PropTypes.string.isRequired,
 };
 
 Inputrow.defaultProps = {
