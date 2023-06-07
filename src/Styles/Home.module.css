@@ -6,6 +6,7 @@
   width: 80%;
   margin: 10px 70px;
 }
+
 .h2 {
   color: #eb9a9a;
   font-family: "Nunito", sans-serif;
@@ -17,7 +18,7 @@
   font-size: 16px;
   font-family: "Ysabeau", sans-serif;
   max-width: 80%;
-  margin: 10;
+  margin: 10px 0;
 }
 
 .p2 {
