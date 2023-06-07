@@ -1,0 +1,36 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@600&family=Ysabeau:wght@300&display=swap");
+
+.home {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  margin: 10px 70px;
+}
+
+.h2 {
+  color: #eb9a9a;
+  font-family: "Nunito", sans-serif;
+  margin: 0;
+  margin-top: 10px;
+}
+
+.p1 {
+  font-size: 16px;
+  font-family: "Ysabeau", sans-serif;
+  max-width: 80%;
+  margin: 10px 0;
+}
+
+.p2 {
+  font-size: 16px;
+  font-family: "Ysabeau", sans-serif;
+  max-width: 80%;
+  margin: 0;
+}
+
+img {
+  position: absolute;
+  bottom: 230px;
+  left: 1050px;
+  width: 250px;
+}
