@@ -1,18 +1,22 @@
+import styles from '../Styles/Home.module.css';
+import cartoon1 from '../Images/Cartoon1.png';
+
 const Home = () => (
-  <>
-    <h2> Welcome to our Page!</h2>
-    <p>
+  <div className={styles.home}>
+    <h2 className={styles.h2}> Welcome to our Page!</h2>
+    <p className={styles.p1}>
       Math Magician is a web application or software program designed to help
       users improve their math skills and enhance their mental calculation
       abilities. It provides a platform for practicing various mathematical
       operations such as addition, subtraction, multiplication, and division.
     </p>
-    <p>
+    <p className={styles.p2}>
       Math Magician is a web application or software program designed to help
       users improve their math skills and enhance their mental calculation
       abilities. It provides a platform for practicing various mathematical
-      operations such as addition, subtraction, multiplication, and division
+      operations such as addition, subtraction, multiplication, and division.
       {' '}
+      <br />
       <br />
       The main objective of Math Magician is to make math learning and practice
       more engaging and interactive. It offers a user-friendly interface with a
@@ -26,8 +30,8 @@ const Home = () => (
       also include timed challenges or gamified elements to add an element of
       excitement and competition.
     </p>
-    <br />
-  </>
+    <img src={cartoon1} alt="maths" />
+  </div>
 );
 
 export default Home;
