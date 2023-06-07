@@ -9,8 +9,9 @@ const Quotes = () => {
   useEffect(() => {
     const quotesData = async () => {
       const category = 'success';
-      const apiKey = process.env.REACT_APP_SECRET_KEY;
+      const apiKey = 'HmwhVCAVSZi+hxRoWnB1vg==pR9qljjXbuex4AcR';
       setloading(true);
+
       try {
         await fetch(
           `https://api.api-ninjas.com/v1/quotes?category=${category}`,
