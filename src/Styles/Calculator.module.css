@@ -74,14 +74,6 @@
   cursor: pointer;
 }
 
-.inputItem:active {
-  font-size: 25px;
-}
-
-.zeroButton:active {
-  font-size: 25px;
-}
-
 .zeroButton {
   width: 187px;
   height: 100%;
@@ -91,6 +83,11 @@
   font-size: 22px;
   color: #36454f;
   border: 1px solid #fff;
+}
+
+.inputItem:active,
+.zeroButton:active {
+  font-size: 25px;
 }
 
 .item4 {
