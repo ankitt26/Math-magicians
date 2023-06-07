@@ -71,6 +71,15 @@
   font-size: 20px;
   color: #36454f;
   border: 0.5px solid #fff;
+  cursor: pointer;
+}
+
+.inputItem:active {
+  font-size: 25px;
+}
+
+.zeroButton:active {
+  font-size: 25px;
 }
 
 .zeroButton {
