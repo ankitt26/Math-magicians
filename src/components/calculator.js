@@ -13,31 +13,31 @@ const Calculator = () => {
     <>
       <h2>Welcome to Maths Magicians</h2>
       <div className={styles.calculator}>
-        <div id="result-box">
+        <div id={styles.resultBox}>
           {(obj.total && obj.next) || obj.next ? obj.next : obj.total || 0}
         </div>
 
-        <Inputrow item1="AC" item2="+/-" item3="%" item4="÷" onclick={onclick} />
-        <Inputrow item1="7" item2="8" item3="9" item4="×" onclick={onclick} />
-        <Inputrow item1="4" item2="5" item3="6" item4="-" onclick={onclick} />
-        <Inputrow item1="1" item2="2" item3="3" item4="+" onclick={onclick} />
-        <div className="input-row input-row4">
+        <Inputrow item1="AC" item2="+/-" item3="%" item4="÷" onclick={onclick} styles={styles} />
+        <Inputrow item1="7" item2="8" item3="9" item4="×" onclick={onclick} styles={styles} />
+        <Inputrow item1="4" item2="5" item3="6" item4="-" onclick={onclick} styles={styles} />
+        <Inputrow item1="1" item2="2" item3="3" item4="+" onclick={onclick} styles={styles} />
+        <div className={`${styles.inputRow} ${styles.inputRow4}`}>
           <button
-            className="zero-button"
+            className={styles.zeroButton}
             type="button"
             onClick={(e) => onclick(e.target.textContent)}
           >
             0
           </button>
           <button
-            className="input-item"
+            className={styles.inputItem}
             type="button"
             onClick={(e) => onclick(e.target.textContent)}
           >
             .
           </button>
           <button
-            className="input-item item4"
+            className={`${styles.inputItem} ${styles.item4}`}
             type="button"
             onClick={(e) => onclick(e.target.textContent)}
           >

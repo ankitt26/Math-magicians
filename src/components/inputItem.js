@@ -13,13 +13,12 @@ const Inputitem = ({ item, classN, onclick }) => (
 );
 
 Inputitem.defaultProps = {
-  classN: 'input-item',
   onclick: () => {},
 };
 
 Inputitem.propTypes = {
   item: PropTypes.string.isRequired,
-  classN: PropTypes.string,
+  classN: PropTypes.string.isRequired,
   onclick: PropTypes.func,
 };
 export default Inputitem;
