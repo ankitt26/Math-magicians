@@ -9,7 +9,7 @@ const Quotes = () => {
   useEffect(() => {
     const quotesData = async () => {
       const category = 'success';
-      const apiKey = 'HmwhVCAVSZi+hxRoWnB1vg==pR9qljjXbuex4AcR';
+      const apiKey = process.env.REACT_APP_SECRET_KEY;
       setloading(true);
 
       try {
