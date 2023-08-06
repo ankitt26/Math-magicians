@@ -1,28 +1,60 @@
-@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@600&family=Ysabeau:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@600&family=Ysabeau:wght@300;700;800&display=swap");
 
-.navbar {
-  font-family: "Ysabeau", sans-serif;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  margin: 0 30px;
+@media screen and (max-width: 660.9px) {
+  .navbar {
+    font-family: "Ysabeau", sans-serif;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 15px;
+  }
+
+  .heading {
+    font-family: "Ysabeau", sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    color: #2f84bd;
+    text-align: center;
+  }
+
+  .ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 14px;
+    width: 250px;
+    margin-right: 60px;
+    list-style: none;
+  }
 }
 
-.heading {
-  font-family: "Ysabeau", sans-serif;
-  font-size: 33px;
-  font-weight: 700;
-  color: #2f84bd;
-}
+@media screen and (min-width: 661px) {
+  .navbar {
+    font-family: "Ysabeau", sans-serif;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 30px;
+  }
 
-.ul {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-  width: 250px;
-  margin-right: 60px;
-  list-style: none;
+  .heading {
+    font-family: "Ysabeau", sans-serif;
+    font-size: 33px;
+
+    /* font-weight: 700; */
+    color: #2f84bd;
+  }
+
+  .ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 250px;
+    margin-right: 60px;
+    list-style: none;
+  }
 }
 
 .li {

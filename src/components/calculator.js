@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import Inputrow from './inputrow';
 import calculate from '../logic/calculate';
 import styles from '../Styles/Calculator.module.css';
+import Cartoon2 from '../Images/4905784.jpg';
 
 const Calculator = () => {
   const [obj, setObj] = useState({ total: 0 });
@@ -20,6 +21,9 @@ const Calculator = () => {
           mathematical operations such as addition, subtraction, multiplication,
           and division.
         </p>
+        <div className={styles.image}>
+          <img className={styles.cartoon2} src={Cartoon2} alt="cartoon" />
+        </div>
       </div>
 
       <div className={styles.calculator}>

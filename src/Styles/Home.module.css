@@ -1,36 +1,85 @@
 @import url("https://fonts.googleapis.com/css2?family=Nunito:wght@600&family=Ysabeau:wght@300&display=swap");
 
-.home {
-  display: flex;
-  flex-direction: column;
-  width: 80%;
-  margin: 10px 70px;
+@media screen and (max-width: 766.9px) {
+  .main {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .home {
+    display: flex;
+    flex-direction: column;
+    width: 95%;
+    margin: 10px 30px;
+  }
+
+  .h2 {
+    color: #eb9a9a;
+    font-family: "Nunito", sans-serif;
+    margin: 0;
+    margin-top: 10px;
+  }
+
+  .p1 {
+    font-size: 17px;
+    font-family: "Ysabeau", sans-serif;
+    max-width: 90%;
+    margin: 10px 0;
+  }
+
+  .p2 {
+    font-size: 17px;
+    font-family: "Ysabeau", sans-serif;
+    max-width: 90%;
+    margin: 0;
+  }
+
+  .cartoon {
+    margin: 20px auto 50px;
+    width: 250px;
+    height: 250px;
+  }
 }
 
-.h2 {
-  color: #eb9a9a;
-  font-family: "Nunito", sans-serif;
-  margin: 0;
-  margin-top: 10px;
-}
+@media screen and (min-width: 768px) {
+  .main {
+    display: flex;
+    flex-direction: row;
+  }
 
-.p1 {
-  font-size: 16px;
-  font-family: "Ysabeau", sans-serif;
-  max-width: 80%;
-  margin: 10px 0;
-}
+  .home {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: 10px 70px;
+  }
 
-.p2 {
-  font-size: 16px;
-  font-family: "Ysabeau", sans-serif;
-  max-width: 80%;
-  margin: 0;
-}
+  .h2 {
+    color: #eb9a9a;
+    font-family: "Nunito", sans-serif;
+    margin: 0;
+    margin-top: 10px;
+  }
 
-img {
-  position: absolute;
-  bottom: 230px;
-  left: 1050px;
-  width: 250px;
+  .p1 {
+    font-size: 16px;
+    font-family: "Ysabeau", sans-serif;
+    max-width: 90%;
+    margin: 10px 0;
+  }
+
+  .p2 {
+    font-size: 16px;
+    font-family: "Ysabeau", sans-serif;
+    max-width: 90%;
+    margin: 0;
+  }
+
+  .cartoon {
+    position: relative;
+    top: 44px;
+    right: 50px;
+    width: 250px;
+    height: 250px;
+  }
 }

@@ -19,6 +19,11 @@
   font-family: "Ysabeau", sans-serif;
 }
 
+.cartoon2 {
+  display: flex;
+  width: 58%;
+}
+
 .calculator {
   font-family: "Nunito", sans-serif;
   display: flex;
@@ -93,4 +98,39 @@
 .item4 {
   color: azure;
   background-color: #eb9a9a;
+}
+
+@media screen and (max-width: 860px) {
+  .CPage {
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0 auto;
+  }
+
+  .image {
+    width: 100%;
+    text-align: center;
+  }
+
+  .cartoon2 {
+    margin: 20px auto;
+    width: 330px;
+  }
+
+  .calculator {
+    font-family: "Nunito", sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    min-width: 340px;
+    height: 340px;
+    margin: 30px auto;
+  }
+
+  .zeroButton {
+    width: 170px;
+  }
 }
